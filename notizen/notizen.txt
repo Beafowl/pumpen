@@ -1,0 +1,43 @@
+* Es soll eine App programmiert werden, die kontrolliert, ob eine Gruppe regelmäßig ins Gym geht
+* für jeden Teilnehmer in der Gruppe wird in der Woche gezählt, wie oft er im Gym war
+* Wurde das Gym nicht oft genug in der Woche besucht, so gibt es irgendeine Form von Konsequenz
+
+Sammeln von Informationen innerhalb einer Gruppe
+
+* Eine wichtige Frage ist, wie Informationen innerhalb einer Gruppe gespeichert und verarbeitet werden
+* Entweder ein Nutzer hostet das ganze oder man macht es auf einem Server
+* Auf Nutzer ist besser, da ein Server in Single Point of Failure darstellt. Zudem kann, wenn der Nutzer
+nicht verfügbar ist, das ganze auf ein anderes Gruppenmitglied übertragen werden.
+
+Öffnen der App
+
+* Zu Beginn kommt ein Startbildschirm, auf dem der Benutzer begrüßt wird. Dies kann zum Schluss programmiert werden.
+* Es fängt an mit einer Übersicht. Als erstes steht, wie oft man dagewesen ist. Bei einer bestimmten Anzahl (in 
+unserem Fall 3) steht dann ein Haken oder ein Kreuz, um zu signalisieren, dass man es für die Woche geschafft hat oder nicht
+* Dadrunter ist ein Knopf, wo man zu den Entschuldigungen kann, falls eine Aussteht.
+* Dann folgt ein Button, um eine Entschuldigung für diese Woche einzureichen. Drückt man darauf, kommt ein neues Fenster, wo
+man reinschreiben kann, wieso man nicht zum sport hingehen kann.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entschuldigungen
+
+* schreibt ein Benutzer eine Entschuldigung, so wird für alle anderen Nutzer die Entschuldigung sichtbar. Drückt man darauf,
+so wird der Text voll angezeigt. Dadrunter sollte ein Antwort-Button sein. Drückt man darauf, so kann man einen Text schreiben
+und schließlich die Entschuldigung akzeptieren oder nicht.
+* Bei der Entschuldigung selbst wird angezeigt, wer die Entschuldigung angenommen hat und mit welcher Beschreibung.
+* bei einem bestimmten Prozentsatz erfolgen für den Nutzer die Konsequenzen

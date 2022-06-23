@@ -1,0 +1,7 @@
+fetch_data - Get all the current data
+
+send_attendance - Send attendance today
+
+send_excuse - Send excuse to server
+
+punish - Punish user
