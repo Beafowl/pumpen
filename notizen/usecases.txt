@@ -1,0 +1,35 @@
+Use Cases - Beinhalten nur Interaktionen mit dem Server/Datenbank
+
+Eintragen
+
+* Dieser Use Case wird passiv ausgeführt. Statt mit der App interagieren zu müssen,
+muss man im Gym für eine bestimmte Zeit bleiben, bis die App den Besuch einträgt.
+
+Anmelden/Daten ändern
+
+* Der Benutzer gibt seinen Namen und einen Discord Tag an. Der Discord Tag wird für
+die Konsequenzen verwendet
+* Use Case wird bei Installation der App erzwungen. Danach kann man die beiden Dinge
+abändern.
+
+Verifizieren
+
+* Ob dieser Use Case vorhanden sein wird, ist unklar
+* Dieser Schritt kann benutzt werden, um die Existenz des Discord Accounts sicher
+zu stellen. Nach einer Anmeldung bekommt der Benutzer auf Discord eine Nachricht von
+einem Bot. Klickt er auf diesen Link, so wird der Nutzer freigegeben
+
+Entschuldigung schreiben
+
+* Kann durchgeführt werden, wenn diese Woche keine Entschuldigung geschrieben wurde
+oder das Ziel nicht erreicht wurde
+* Man tippt eine Nachricht ein.
+
+Entschuldigung annehmen/ablehnen
+
+* Jede Entschuldigung von einem Benutzer kann entweder abgelehnt oder angenommen werden.
+Dazu kann man eine Nachricht verfassen.
+* Dieser Use Case kann nicht rückgängig gemacht werden
+
+
+Für fast alle Use Cases werden alle Nutzer benachrichtigt
