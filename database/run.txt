@@ -1,0 +1,6 @@
+docker run --name postgres-0 -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres:alpine
+
+- postgres:alpine ist das zu verwendede image. mit diesem befehl wird ein container erzeugt
+- postgres-0 ist der name des containers, dort kann alles mögliche stehen
+- todo: dockerfile schreiben, der diesen befehl aussführt und die tabellen initialisiert
+- pgadmin4 für den zugriff auf die datenbank verwenden

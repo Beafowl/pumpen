@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json())
 
-app.get("/users/add", (req, res) => {
+app.get("/users/getUser", (req, res) => {
 
 
     res.send({ message: "Add user"});
