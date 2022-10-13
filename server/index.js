@@ -4,8 +4,12 @@ const app = express();
 
 app.use(express.json())
 
-app.get("/users/getUser", (req, res) => {
 
+// input: body { discordTag, password }
+
+app.get("/login", (req, res) => {
+
+    // check if user is in the database
 
     res.send({ message: "Add user"});
 });

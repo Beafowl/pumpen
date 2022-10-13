@@ -44,3 +44,13 @@ create table if not exists responds_to (
 		references pumper(id)
 
 );
+
+insert into pumper(id, name, attendance_count, attendance_this_week, attendance_next_week, days_of_punishment)
+	values('Pumper1#0000', 'Arnold Schwarzenegger', 0, 0, 0, 0);
+insert into pumper(id, name, attendance_count, attendance_this_week, attendance_next_week, days_of_punishment)
+	values('Pumper2#0000', 'Markus Ruehl', 0, 0, 0, 0);
+insert into pumper(id, name, attendance_count, attendance_this_week, attendance_next_week, days_of_punishment)
+	values('Pumper3#0000', 'Ronnie Coleman', 0, 0, 0, 0);
+
+
+select * from pumper;

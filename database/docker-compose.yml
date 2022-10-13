@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  database:
+    container_name: database
+    image: postgres:alpine
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: pumpen
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: berkbuturak@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: password
+    ports:
+      - '80:80'

@@ -4,3 +4,8 @@ docker run --name postgres-0 -e POSTGRES_PASSWORD=password -d -p 5432:5432 postg
 - postgres-0 ist der name des containers, dort kann alles mögliche stehen
 - todo: dockerfile schreiben, der diesen befehl aussführt und die tabellen initialisiert
 - pgadmin4 für den zugriff auf die datenbank verwenden
+
+docker run --name pgadmin4_server -d -p 80:80 -e PGADMIN_DEFAULT_EMAIL=berkbuturak@gmail.com -e PGADMIN_DEFAULT_PASSWORD=3wbn945Z6 dpage/pgadmin4
+
+- pgadmin4 server
+- when logging into postgres server, make sure to fetch the ip address via docker inspect

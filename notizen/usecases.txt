@@ -7,6 +7,7 @@ muss man im Gym für eine bestimmte Zeit bleiben, bis die App den Besuch einträ
 
 Anmelden/Daten ändern
 
+* Input: Display Name, Disord Tag, passwort
 * Der Benutzer gibt seinen Namen und einen Discord Tag an. Der Discord Tag wird für
 die Konsequenzen verwendet
 * Use Case wird bei Installation der App erzwungen. Danach kann man die beiden Dinge
