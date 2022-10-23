@@ -1,0 +1,20 @@
+* Create Login Activity
+No Design yet, only functionalitiy
+Add important elements
+* Create API entry for login
+
+* Create Register Activity
+Also no design yet
+Add important elements
+*Create API entry for register
+Add user to database, set him to not verified
+Create verification key, send key to user via discord
+
+* Create verification
+Create communication between server and discord bot (Maybe server for bot itself?)
+Add API entry for verifying user
+
+
+* Create verification activity
+User will be sent to this activity, when registering or logging in
+
